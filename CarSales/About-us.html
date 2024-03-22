@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manan Cars</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <style>
+        .about-details {
+            background-image: url("Images/banner.jpg");
+            background-position: top;
+            background-size: cover
+        }
+        
+        .about-form {
+            padding: 50px 0;
+        }
+        
+        .about-form .manan-about {
+            text-align: center;
+        }
+        
+        .about-form .manan-about h6 {
+            text-transform: uppercase;
+            padding-bottom: 15px;
+            font-size: 35px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Header part -->
+
+    <header>
+
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+
+                <a class="navbar-brand" href="Index.html" style="color: #000; font-weight: 600;">Manan Cars</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+                  <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarContent">
+
+                    <ul class="navbar-nav mr-auto m-auto">
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="Index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter">Sign In</a>
+                        </li>
+
+                    </ul>
+
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- About-us content -->
+
+    <section class="about-details">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-12">
+
+                    <div class="about-title">
+                        <h5>Welcome to Manan cars</h5>
+                    </div>
+
+                    <div class="about-content">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-9" style="padding-bottom: 30px;">
+                    <div class="contacts">
+                        <i class="fas fa-phone"></i><span style="padding-left: 17px;">Mobile:123467890</span> <br>
+                        <i class="fas fa-address-card"></i> <span>Address:56 ABC Dirve</span> <br>
+                        <i class="fas fa-envelope"></i><span style="padding-left: 17px;">Email:12130300@cqumail.com</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About form -->
+
+    <section class="about-form">
+
+        <div class="container">
+
+            <div class="manan-about">
+                <h6>About</h6>
+            </div>
+
+            <form class="needs-validation" novalidate>
+
+                <div class="first-last d-flex">
+
+                    <div class="form-group">
+                        <label>First Name: </label><i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title="Enter your firstname"></i>
+                        <input type="text" class="form-control" placeholder="First Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Last Name: </label><i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title="Enter your lastname"></i>
+                        <input type="text" class="form-control" placeholder="Last Name">
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label>Email: </label><i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title="Enter your email"></i>
+                    <input type="email" class="form-control" placeholder="Enter email">
+                </div>
+
+                <div class="form-group">
+                    <label>Message: </label><i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title="Enter your message"></i>
+                    <textarea class="form-control" placeholder="Your message" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="background-color: #e53012; border-color: #e53012; padding: 6px 25px;">Submit</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- Modal -->
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered" role="document">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Sign In</h5>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                        <span aria-hidden="true">&times;</span>
+
+                    </button>
+                
+                </div>
+
+                <div class="modal-body">
+
+                    <form class="needs-validation" novalidate>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="First Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Last Name">
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                        </div>
+
+                    </form>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Sign In</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <div class="student-name">
+                        <h3>Manan Amitkumar Patel</h3>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="enrollment-num">
+                        <h4>12130300</h4>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+    </footer>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+
+</body>
+
+</html>
